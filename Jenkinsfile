@@ -6,5 +6,7 @@
 autorePipeline(
     appName: 'tes-testing',
     appPort: 8000,
-    deployPort: 8053
+    deployPort: 8153,
+    deployName: 'tes-testing-staging',
+    releaseEnvironment: 'staging'
 )
